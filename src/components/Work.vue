@@ -1,5 +1,11 @@
-<!-- <script setup> 
-</script> -->
+<script setup>
+  // $( window ).on('scroll', function(){
+  //   var scrollTop = $(this).scrollTop();
+  //   $( '.clients div' ).css({
+  //     transform: 'translateX('+  ( -1 * scrollTop ) +'px)',
+  //   });
+  // });
+</script>
 
 <template>
     <section class="inner grid">
@@ -18,7 +24,7 @@
 <style scoped>
     section {
         grid-template-rows: 3;
-        margin-bottom: 25rem;
+        margin-bottom: 10rem;
     }
     h2 {
         grid-row-start: 1;
@@ -90,6 +96,11 @@
         }
         .shots img:nth-child(3) {
             order: -1;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        section {
+            margin-bottom: 25rem;
         }
     }
     @media screen and (min-width: 1400px) {

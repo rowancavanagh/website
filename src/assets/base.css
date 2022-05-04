@@ -75,7 +75,7 @@ p {
   column-gap: 4rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   body {
     font-size: 1.8rem;
   }
@@ -97,7 +97,7 @@ p {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   h1 {
     font-size: 7.2rem;
   }
