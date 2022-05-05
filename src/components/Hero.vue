@@ -19,7 +19,7 @@
 <style scoped>
   header {
     grid-template-rows: 3;
-    margin-bottom: 20rem;
+    margin-bottom: 16rem;
   }
   a {
     grid-row-start: 1;
@@ -76,6 +76,7 @@
   @media screen and (min-width: 1200px) {
     header {
       grid-template-rows: 2;
+      margin-bottom: 15rem;
     }
     a {
       margin: 8rem 0 7rem;
