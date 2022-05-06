@@ -5,8 +5,8 @@
   <header class="inner grid hero">
     <a href="/"><img alt="My monogram" class="logo" src="../assets/logo.svg" width="25" /></a>
     <div>
-      <h1>Hi I'm Rowan, a visual designer</h1>
-      <p>Bear with me while I fill out my barebones portfolio site!</p>
+      <h1>Hi I'm Rowan, a digital product designer</h1>
+      <p>🚧&nbsp; Bear with me while I fill out my barebones portfolio site! &nbsp;🚧</p>
     </div>
     <figure>
       <img src="../assets/hero-1-1200.jpg" class="hero-img-1" alt="Me gesturing strangely" width="400" />

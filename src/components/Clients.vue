@@ -4,7 +4,7 @@
 <template>
   <section class="inner grid clients">
     <h2>Clients</h2>
-    <p>I've been fortunate to have worked with some amazing companies in my 11 years in the industry—even jetting around to see quite a few.</p>
+    <p>I've been fortunate to have worked with some amazing companies across many different industries in my 11 years on the job.</p>
     <div>
       <img src="../assets/client-astrazeneca.svg" class="astrazeneca" alt="Client logo of AstraZeneca" width="150" />
       <img src="../assets/client-mastercard.svg" class="mastercard" alt="Client logo of Mastercard" width="180" />
