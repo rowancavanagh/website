@@ -34,6 +34,7 @@
     <section class="inner grid work">
         <h2>Work</h2>
         <p>I am a multi-skilled designer with a focus on interface design, a passion for typography and design systems, an eye for detail, a strong technical leaning and an affinity for user-centred design.</p>
+        <p>Here's a little sample of my work, while I get on to writing case studies!</p>
         <div class="shots-container">
             <div class="shots">
                 <img src="../assets/placeholder-1.jpg" alt="" width="400" />
@@ -49,21 +50,20 @@
 
 <style scoped>
     section {
-        grid-template-rows: 3;
         margin-bottom: 10rem;
     }
     h2 {
-        grid-row-start: 1;
         grid-column: 1 / 5;
         margin-bottom: 2rem;
     }
     p {
-        grid-row-start: 2;
         grid-column: 1 / 5;
+        margin-bottom: 2rem;
+    }
+    p:last-of-type {
         margin-bottom: 4rem;
     }
     .shots-container {
-        grid-row-start: 3;
         grid-column: 1 / 5;
         margin: 0 -4rem 0 -4rem;
     }
@@ -93,6 +93,8 @@
         }
         p {
             grid-column: 3 / 9;
+        }
+        p:last-of-type {
             margin-bottom: 8rem;
         }
         .shots-container {

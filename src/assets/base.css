@@ -1,3 +1,15 @@
+@import url("//hello.myfonts.net/count/4960a2");
+@font-face {
+  font-family: "Mundial";
+  font-weight: 400;
+  src: url("../assets/mundial-regular.woff2") format('woff2'), url("../assets/mundial-regular.woff") format('woff');
+}
+@font-face {
+  font-family: "Mundial";
+  font-weight: 700;
+  src: url("../assets/mundial-bold.woff2") format('woff2'), url("../assets/mundial-bold.woff") format('woff');
+}
+
 :root {
   --blue-25: #1D3462;
   --red: #F2433D;
@@ -37,7 +49,7 @@ body {
   min-height: 100vh;
   color: var(--blue-25);
   background: var(--cream-96);
-  line-height: 1.3;
+  line-height: 1.4;
   font-family: Mundial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
@@ -61,6 +73,17 @@ h2 {
 
 p {
   max-width: 60rem;
+}
+
+a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(242,67,61,.3), rgba(242,67,61,0));
+  transition: all 100ms ease-out;
 }
 
 .inner {

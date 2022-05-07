@@ -25,21 +25,20 @@
 
 <style scoped>
   section {
-    grid-template-rows: 3;
     margin-bottom: 15rem;
   }
+  
   h2 {
-    grid-row-start: 1;
     grid-column: 1 / 5;
     margin-bottom: 2rem;
   }
+
   p {
-    grid-row-start: 2;
     grid-column: 1 / 5;
     margin-bottom: 4rem;
   }
+
   div {
-    grid-row-start: 3;
     grid-column: 1 / 5;
     display: flex;
     flex-wrap: wrap;
@@ -52,10 +51,12 @@
       grid-column: 3 / 9;
       margin-bottom: 3rem;
     }
+
     p {
       grid-column: 3 / 9;
       margin-bottom: 6rem;
     }
+
     div {
       grid-column: 3 / 10;
     }
@@ -65,6 +66,7 @@
     section {
       margin-bottom: 30rem;
     }
+
     div {
       column-gap: 6rem;
       row-gap: 4rem;
@@ -75,10 +77,12 @@
     h2 {
       grid-column: 5 / 11;
     }
+
     p {
       grid-column: 5 / 11;
       margin-bottom: 8rem;
     }
+
     div {
       grid-column: 5 / 13;
     }
