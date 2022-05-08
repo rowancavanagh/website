@@ -1,15 +1,12 @@
-<!-- <script setup> 
-</script> -->
-
 <template>
   <footer>
     <section class="inner grid footer">
       <h2>Say hi</h2>
       <div>
-          <a href="mailto:hello@rowancavanagh.com?subject=👋" target="_blank"><img src="../assets/contact-email.svg" class="" alt="" width="32" /></a>
-          <a href="https://www.dribbble.com/rowancavanagh" target="_blank"><img src="../assets/contact-dribbble.svg" class="" alt="" width="30" /></a>
-          <a href="https://www.twitter.com/rowancavanagh" target="_blank"><img src="../assets/contact-twitter.svg" class="" alt="" width="32" /></a>
-          <a href="https://www.linkedin.com/in/rowancavanagh" target="_blank"><img src="../assets/contact-linkedin.svg" class="" alt="" width="28" /></a>
+          <a href="mailto:hello@rowancavanagh.com?subject=👋" target="_blank"><img src="../assets/contact-email.svg" alt="Email me" width="32" /></a>
+          <a href="https://www.dribbble.com/rowancavanagh" target="_blank"><img src="../assets/contact-dribbble.svg" alt="My Instagram page" width="30" /></a>
+          <a href="https://www.twitter.com/rowancavanagh" target="_blank"><img src="../assets/contact-twitter.svg" alt="My Twitter account" width="32" /></a>
+          <a href="https://www.linkedin.com/in/rowancavanagh" target="_blank"><img src="../assets/contact-linkedin.svg" alt="My LinkedIn profile" width="28" /></a>
       </div>
       <span>Rowan Cavanagh, designed and built 2022</span>
     </section>
@@ -24,7 +21,7 @@
 
   section {
     padding-top: 15rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   h2 {

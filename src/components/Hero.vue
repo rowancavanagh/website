@@ -1,6 +1,3 @@
-<!-- <script setup> 
-</script> -->
-
 <template>
   <header class="inner grid hero">
     <a href="/"><img alt="My monogram" class="logo" src="../assets/logo.svg" width="25" /></a>
@@ -9,9 +6,12 @@
       <p>🚧&nbsp; Bear with me while I fill out my barebones portfolio site! &nbsp;🚧</p>
     </div>
     <figure>
-      <img srcset="../assets/hero-1-400.jpg 400w, ../assets/hero-1-800.jpg 800w" sizes="(max-resolution: 140dpi) 400px, 800px" src="../assets/hero-1-800.jpg" class="hero-img-1" alt="Me gesturing strangely" width="400" />
-      <img srcset="../assets/hero-2-300.jpg 300w, ../assets/hero-2-600.jpg 600w" sizes="(max-resolution: 140dpi) 300px, 600px" src="../assets/hero-2-600.jpg" class="hero-img-2" alt="Me pointing" width="300" />
-      <img src="../assets/hero-3.jpg" class="hero-img-3" alt="My work" width="220" />
+      <img srcset="../assets/hero-1-800.webp 2x, ../assets/hero-1-800.jpg 2x, ../assets/hero-1-400.jpg 1x" src="../assets/hero-1-800.jpg" class="hero-img-1" alt="Me gesturing strangely" />
+      <img srcset="../assets/hero-2-600.webp 2x, ../assets/hero-2-600.jpg 2x, ../assets/hero-2-300.jpg 1x" src="../assets/hero-2-600.jpg" class="hero-img-2" alt="Me pointing" />
+      <video autoplay loop muted playsinline class="hero-img-3" alt="My work in a very short video">
+        <source src="../assets/hero-3.webm" type="video/webm">
+        <source src="../assets/hero-3.mp4" type="video/mp4">
+      </video>
     </figure>
   </header>
 </template>
@@ -67,7 +67,7 @@
     margin: 0 var(--gutter-neg) 0 var(--gutter-neg);
   }
 
-  figure img, figure picture {
+  figure img, figure video {
     grid-area: 1 / -1;
   }
 

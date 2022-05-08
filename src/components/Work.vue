@@ -37,12 +37,26 @@
         <p>Here's a little sample of my work, while I get on to writing case studies!</p>
         <div class="shots-container">
             <div class="shots">
-                <img src="../assets/placeholder-1.jpg" alt="" width="400" />
-                <img src="../assets/placeholder-2.jpg" alt="" width="400" />
-                <img src="../assets/placeholder-3.jpg" alt="" width="400" />
-                <img src="../assets/placeholder-4.jpg" alt="" width="400" />
-                <img src="../assets/placeholder-5.jpg" alt="" width="400" />
-                <img src="../assets/placeholder-6.jpg" alt="" width="400" />
+                <video autoplay loop muted playsinline alt="SeeSaw style tiles" loading="lazy">
+                    <source src="../assets/work-seesaw-style-tiles.mp4" type="video/mp4">
+                </video>
+                <img srcset="../assets/work-seesaw-home-800.jpg 2x, ../assets/work-seesaw-home-400.jpg 1x" src="../assets/work-seesaw-home-800.jpg" alt="SeeSaw marketing home page" loading="lazy" />
+                <img srcset="../assets/work-seesaw-mobile-800.jpg 2x, ../assets/work-seesaw-mobile-400.jpg 1x" src="../assets/work-seesaw-mobile-800.jpg" alt="SeeSaw dashboard mobile" loading="lazy" />
+                <img srcset="../assets/work-seesaw-calendar-800.jpg 2x, ../assets/work-seesaw-calendar-400.jpg 1x" src="../assets/work-seesaw-calendar-800.jpg" alt="SeeSaw dashboard calendar" loading="lazy" />
+                <img srcset="../assets/work-absurd-home-800.jpg 2x, ../assets/work-absurd-home-400.jpg 1x" src="../assets/work-absurd-home-800.jpg" alt="Absurd home page" loading="lazy" />
+                <video autoplay loop muted playsinline alt="Absurd clients tiles" loading="lazy">
+                    <source src="../assets/work-absurd-clients.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted playsinline alt="CitySuites motion test" loading="lazy">
+                    <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted playsinline alt="Prosper EX style tiles" loading="lazy">
+                    <source src="../assets/work-prosper-ex-style-tiles.mp4" type="video/mp4">
+                </video>
+                <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" loading="lazy" />
+                <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" loading="lazy" />
+                <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" loading="lazy" />
+                <img srcset="../assets/work-esf-website-800.jpg 2x, ../assets/work-esf-website-400.jpg 1x" src="../assets/work-esf-website-800.jpg" alt="Electrical Safety First website" loading="lazy" />
             </div>
         </div>
     </section>
@@ -71,17 +85,12 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .shots img {
+    .shots img, .shots video {
         width: 50%;
-    }
-    @media screen and (max-width: 599px) {
-        .shots img:nth-child(3) {
-            width: 100%;
-        }
     }
 
     @media screen and (min-width: 600px) {
-        .shots img {
+        .shots img, .shots video {
             width: 33.333%;
         }
     }
@@ -101,7 +110,7 @@
             grid-column: full;
             margin: unset;
         }
-        .shots img {
+        .shots img, .shots video {
             width: 25%;
         }
     }

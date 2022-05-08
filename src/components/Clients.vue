@@ -1,6 +1,3 @@
-<!-- <script setup>
-</script> -->
-
 <template>
   <section class="inner grid clients">
     <h2>Clients</h2>
