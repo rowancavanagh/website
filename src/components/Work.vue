@@ -66,25 +66,32 @@
     section {
         margin-bottom: 10rem;
     }
+
     h2 {
         grid-column: 1 / 5;
         margin-bottom: 2rem;
     }
+
     p {
         grid-column: 1 / 5;
         margin-bottom: 2rem;
     }
+
     p:last-of-type {
         margin-bottom: 4rem;
     }
+
     .shots-container {
         grid-column: 1 / 5;
         margin: 0 -4rem 0 -4rem;
     }
+
     .shots {
         display: flex;
         flex-wrap: wrap;
+        cursor: url(../assets/cursor-oooh.png) 19 19, auto;
     }
+
     .shots img, .shots video {
         width: 50%;
     }
@@ -100,32 +107,40 @@
             grid-column: 3 / 9;
             margin-bottom: 3rem;
         }
+
         p {
             grid-column: 3 / 9;
         }
+
         p:last-of-type {
             margin-bottom: 8rem;
         }
+
         .shots-container {
             grid-column: full;
             margin: unset;
         }
+
         .shots img, .shots video {
             width: 25%;
         }
     }
+
     @media screen and (min-width: 1200px) {
         section {
             margin-bottom: 25rem;
         }
     }
+
     @media screen and (min-width: 1400px) {
         h2 {
             grid-column: 5 / 11;
         }
+
         p {
             grid-column: 5 / 11;
         }
+
         /* .shots img {
             width: 20%;
         } */
@@ -138,26 +153,32 @@
             position: sticky;
             top: 0;
         }
+
         .shots-container {
             grid-column: full;
             overflow-x: hidden;
             margin: unset;
             aspect-ratio: 1 / 1;
         }
+
         .shots {
             align-items: center;
             flex-wrap: nowrap;
         }
+
         .shots img {
             width: 30rem;
         }
+
         .shots img:nth-child(1) {
             order: -3;
         }
+
         .shots img:nth-child(2) {
             order: -2;
             width: 40rem;
         }
+
         .shots img:nth-child(3) {
             order: -1;
         }
@@ -166,9 +187,11 @@
         h2 {
             grid-column: 5 / 11;
         }
+
         p {
             grid-column: 5 / 11;
         }
+
         .shots img {
             width: 40rem;
         }
