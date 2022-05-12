@@ -62,7 +62,7 @@
   }
 
   li.build::before {
-    content: url("../assets/icon-build.svg");
+    content: url("../assets/icon-vue.svg");
     display: block;
     position: absolute;
     top: -60px;
