@@ -55,13 +55,13 @@
     }
 
     div {
-      grid-column: 3 / 10;
+      grid-column: 3 / main-end;
     }
   }
 
   @media screen and (min-width: 1200px) {
     section {
-      margin-bottom: 30rem;
+      margin-bottom: 25rem;
     }
 
     div {

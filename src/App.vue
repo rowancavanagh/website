@@ -2,6 +2,7 @@
   import Hero from './components/Hero.vue'
   import Work from './components/Work.vue'
   import Clients from './components/Clients.vue'
+  import ComingSoon from './components/ComingSoon.vue'
   import Footer from './components/Footer.vue'
 </script>
 
@@ -9,7 +10,7 @@
   <Hero />
   <Work />
   <Clients />
-  <!-- <ComingSoon /> -->
+  <ComingSoon />
   <Footer />
 </template>
 

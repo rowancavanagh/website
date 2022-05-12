@@ -57,6 +57,8 @@
                 <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" loading="lazy" />
                 <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" loading="lazy" />
                 <img srcset="../assets/work-esf-website-800.jpg 2x, ../assets/work-esf-website-400.jpg 1x" src="../assets/work-esf-website-800.jpg" alt="Electrical Safety First website" loading="lazy" />
+                <img srcset="../assets/work-ly-wireframes-1600.jpg 2x, ../assets/work-ly-wireframes-800.jpg 1x" src="../assets/work-ly-wireframes-1600.jpg" alt="Lucy & Yak UX" class="wide" loading="lazy" />
+                <img srcset="../assets/work-ly-design-system-800.jpg 2x, ../assets/work-ly-design-system-400.jpg 1x" src="../assets/work-ly-design-system-800.jpg" alt="Lucy & Yak design system" loading="lazy" />
             </div>
         </div>
     </section>
@@ -89,16 +91,23 @@
     .shots {
         display: flex;
         flex-wrap: wrap;
-        cursor: url(../assets/cursor-oooh.png) 19 19, auto;
     }
 
     .shots img, .shots video {
         width: 50%;
     }
 
+    .shots img.wide, .shots video.wide {
+        width: 100%;
+    }
+
     @media screen and (min-width: 600px) {
         .shots img, .shots video {
             width: 33.333%;
+        }
+
+        .shots img.wide, .shots video.wide {
+            width: 66.666%;
         }
     }
 
@@ -123,6 +132,10 @@
 
         .shots img, .shots video {
             width: 25%;
+        }
+
+        .shots img.wide, .shots video.wide {
+            width: 50%;
         }
     }
 
