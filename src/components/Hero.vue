@@ -64,7 +64,7 @@
     align-items: center;
     justify-items: start;
     height: 150%;
-    margin: 0 var(--gutter-neg) 0 var(--gutter-neg);
+    margin: 0 var(--gutter-neg);
   }
 
   figure img, figure video {
@@ -154,8 +154,9 @@
     }
   }
 
-
+  /* */
   /* Image alignment section */
+  /* */
 
   .hero-img-1 {
     width: 30rem;
@@ -235,6 +236,21 @@
 
     .hero-img-3 {
       width: 25rem;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .hero-img-1 {
+      left: -32%;
+      width: 44rem;
+    }
+
+    .hero-img-2 {
+      width: 32rem;
+    }
+
+    .hero-img-3 {
+      width: 28rem;
     }
   }
 </style>

@@ -85,7 +85,7 @@
 
     .shots-container {
         grid-column: 1 / 5;
-        margin: 0 -4rem 0 -4rem;
+        margin: 0 var(--gutter-neg);
     }
 
     .shots {

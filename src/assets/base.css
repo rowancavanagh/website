@@ -19,6 +19,12 @@
   --gutter: 4rem;
   --gutter-neg: -4rem;
 }
+@media screen and (max-width: 350px) {
+  :root {
+    --gutter: 3rem;
+    --gutter-neg: -3rem;
+  }
+}
 @media screen and (min-width: 800px) {
   :root {
     --grid-columns: [full-start] 4rem [main-start] repeat(8, minmax(0, 1fr)) [main-end] 4rem [full-end];
@@ -96,6 +102,12 @@ a::before {
   display: grid;
   grid-template-columns: var(--grid-columns);
   column-gap: 4rem;
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 4.8rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
