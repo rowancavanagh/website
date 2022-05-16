@@ -2,11 +2,13 @@
 @font-face {
   font-family: "Mundial";
   font-weight: 400;
+  font-display: block;
   src: url("../assets/mundial-regular.woff2") format('woff2'), url("../assets/mundial-regular.woff") format('woff');
 }
 @font-face {
   font-family: "Mundial";
   font-weight: 700;
+  font-display: block;
   src: url("../assets/mundial-bold.woff2") format('woff2'), url("../assets/mundial-bold.woff") format('woff');
 }
 
@@ -106,7 +108,7 @@ a::before {
 
 @media screen and (max-width: 350px) {
   h1 {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
   }
 }
 

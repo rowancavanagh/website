@@ -37,28 +37,28 @@
         <p>Here's a little sample of my work, while I get on to writing case studies!</p>
         <div class="shots-container">
             <div class="shots">
-                <video autoplay loop muted playsinline alt="SeeSaw style tiles" loading="lazy">
+                <video autoplay loop muted playsinline alt="SeeSaw style tiles" width="400" height="300" loading="lazy">
                     <source src="../assets/work-seesaw-style-tiles.mp4" type="video/mp4">
                 </video>
-                <img srcset="../assets/work-seesaw-home-800.jpg 2x, ../assets/work-seesaw-home-400.jpg 1x" src="../assets/work-seesaw-home-800.jpg" alt="SeeSaw marketing home page" loading="lazy" />
-                <img srcset="../assets/work-seesaw-mobile-800.jpg 2x, ../assets/work-seesaw-mobile-400.jpg 1x" src="../assets/work-seesaw-mobile-800.jpg" alt="SeeSaw dashboard mobile" loading="lazy" />
-                <img srcset="../assets/work-seesaw-calendar-800.jpg 2x, ../assets/work-seesaw-calendar-400.jpg 1x" src="../assets/work-seesaw-calendar-800.jpg" alt="SeeSaw dashboard calendar" loading="lazy" />
-                <img srcset="../assets/work-absurd-home-800.jpg 2x, ../assets/work-absurd-home-400.jpg 1x" src="../assets/work-absurd-home-800.jpg" alt="Absurd home page" loading="lazy" />
-                <video autoplay loop muted playsinline alt="Absurd clients tiles" loading="lazy">
+                <img srcset="../assets/work-seesaw-home-800.jpg 2x, ../assets/work-seesaw-home-400.jpg 1x" src="../assets/work-seesaw-home-800.jpg" alt="SeeSaw marketing home page" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-seesaw-mobile-800.jpg 2x, ../assets/work-seesaw-mobile-400.jpg 1x" src="../assets/work-seesaw-mobile-800.jpg" alt="SeeSaw dashboard mobile" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-seesaw-calendar-800.jpg 2x, ../assets/work-seesaw-calendar-400.jpg 1x" src="../assets/work-seesaw-calendar-800.jpg" alt="SeeSaw dashboard calendar" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-absurd-home-800.jpg 2x, ../assets/work-absurd-home-400.jpg 1x" src="../assets/work-absurd-home-800.jpg" alt="Absurd home page" width="400" height="300" loading="lazy" />
+                <video autoplay loop muted playsinline alt="Absurd clients tiles" width="400" height="300" loading="lazy">
                     <source src="../assets/work-absurd-clients.mp4" type="video/mp4">
                 </video>
-                <video autoplay loop muted playsinline alt="CitySuites motion test" loading="lazy">
+                <video autoplay loop muted playsinline alt="CitySuites motion test" width="400" height="300" loading="lazy">
                     <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
                 </video>
-                <video autoplay loop muted playsinline alt="Prosper EX style tiles" loading="lazy">
+                <video autoplay loop muted playsinline alt="Prosper EX style tiles" width="400" height="300" loading="lazy">
                     <source src="../assets/work-prosper-ex-style-tiles.mp4" type="video/mp4">
                 </video>
-                <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" loading="lazy" />
-                <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" loading="lazy" />
-                <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" loading="lazy" />
-                <img srcset="../assets/work-esf-website-800.jpg 2x, ../assets/work-esf-website-400.jpg 1x" src="../assets/work-esf-website-800.jpg" alt="Electrical Safety First website" loading="lazy" />
-                <img srcset="../assets/work-ly-wireframes-1600.jpg 2x, ../assets/work-ly-wireframes-800.jpg 1x" src="../assets/work-ly-wireframes-1600.jpg" alt="Lucy & Yak UX" class="wide" loading="lazy" />
-                <img srcset="../assets/work-ly-design-system-800.jpg 2x, ../assets/work-ly-design-system-400.jpg 1x" src="../assets/work-ly-design-system-800.jpg" alt="Lucy & Yak design system" loading="lazy" />
+                <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-esf-website-800.jpg 2x, ../assets/work-esf-website-400.jpg 1x" src="../assets/work-esf-website-800.jpg" alt="Electrical Safety First website" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-ly-wireframes-1600.jpg 2x, ../assets/work-ly-wireframes-800.jpg 1x" src="../assets/work-ly-wireframes-1600.jpg" alt="Lucy & Yak UX" class="wide" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-ly-design-system-800.jpg 2x, ../assets/work-ly-design-system-400.jpg 1x" src="../assets/work-ly-design-system-800.jpg" alt="Lucy & Yak design system" width="800" height="300" loading="lazy" />
             </div>
         </div>
     </section>
@@ -95,10 +95,12 @@
 
     .shots img, .shots video {
         width: 50%;
+        height: auto;
     }
 
     .shots img.wide, .shots video.wide {
         width: 100%;
+        height: auto;
     }
 
     @media screen and (min-width: 600px) {

@@ -1,14 +1,14 @@
 <template>
   <header class="inner grid hero">
-    <a href="/"><img alt="My monogram" class="logo" src="../assets/logo.svg" width="25" /></a>
+    <a href="/"><img alt="My monogram" class="logo" src="../assets/logo.svg" width="25" height="22.5" /></a>
     <div>
       <h1>Hi I'm Rowan, a digital product designer</h1>
       <p>🚧&nbsp; Bear with me while I fill out my barebones portfolio site! &nbsp;🚧</p>
     </div>
     <figure>
-      <img srcset="../assets/hero-1-800.webp 2x, ../assets/hero-1-800.jpg 2x, ../assets/hero-1-400.jpg 1x" src="../assets/hero-1-800.jpg" class="hero-img-1" alt="Me gesturing strangely" />
-      <img srcset="../assets/hero-2-600.webp 2x, ../assets/hero-2-600.jpg 2x, ../assets/hero-2-300.jpg 1x" src="../assets/hero-2-600.jpg" class="hero-img-2" alt="Me pointing" />
-      <video autoplay loop muted playsinline class="hero-img-3" alt="My work in a very short video">
+      <img srcset="../assets/hero-1-800.webp 800w, ../assets/hero-1-800.jpg 800w, ../assets/hero-1-400.jpg 400w" sizes="(max-width: 1000px) 400px, 800px" src="../assets/hero-1-800.jpg" class="hero-img-1" alt="Me gesturing strangely" width="400" height="267" />
+      <img srcset="../assets/hero-2-600.webp 600w, ../assets/hero-2-600.jpg 600w, ../assets/hero-2-300.jpg 300w" sizes="(max-width: 1000px) 300px, 600px" src="../assets/hero-2-600.jpg" class="hero-img-2" alt="Me pointing" width="300" height="200" />
+      <video autoplay loop muted playsinline class="hero-img-3" alt="My work in a very short video" width="300" height="225">
         <source src="../assets/hero-3.webm" type="video/webm">
         <source src="../assets/hero-3.mp4" type="video/mp4">
       </video>
@@ -32,6 +32,7 @@
 
   a img {
     display: block;
+    height: auto;
   }
 
   a::before {
@@ -160,18 +161,27 @@
 
   .hero-img-1 {
     width: 30rem;
+    height: auto;
   }
 
   .hero-img-2 {
     justify-self: end;
     top: -26%;
     width: 22rem;
+    height: auto;
   }
 
   .hero-img-3 {
     justify-self: end;
     bottom: -35%;
     width: 18rem;
+    height: auto;
+  }
+
+  @media screen and (max-width: 350px) {
+    .hero-img-2 {
+      width: 16rem;
+    }
   }
 
   @media screen and (min-width: 400px) {

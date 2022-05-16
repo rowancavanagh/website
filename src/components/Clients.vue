@@ -3,26 +3,26 @@
     <h2>Clients</h2>
     <p>I've been fortunate to have worked with some amazing companies across many different industries in my 11 years on the job.</p>
     <div>
-      <img src="../assets/client-astrazeneca.svg" class="astrazeneca" alt="Client logo of AstraZeneca" width="150" />
-      <img src="../assets/client-mastercard.svg" class="mastercard" alt="Client logo of Mastercard" width="180" />
-      <img src="../assets/client-mclaren.svg" class="mclaren" alt="Client logo of McLaren" width="160" />
-      <img src="../assets/client-meteogroup.svg" class="meteogroup" alt="Client logo of MeteoGroup" width="170" />
-      <img src="../assets/client-vodafone.svg" class="vodafone" alt="Client logo of Vodafone" width="140" />
-      <img src="../assets/client-pearson.svg" class="pearson" alt="Client logo of Pearson" width="140" />
-      <img src="../assets/client-thomson-reuters.svg" class="thomson-reuters" alt="Client logo of Thomson Reuters" width="200" />
-      <img src="../assets/client-adidas.svg" class="adidas" alt="Client logo of Adidas" width="75" />
-      <img src="../assets/client-lucy-and-yak.svg" class="lucy-and-yak" alt="Client logo of Lucy & Yak" width="60" />
-      <img src="../assets/client-expresstest.svg" class="expresstest" alt="Client logo of ExpressTest" width="140" />
-      <img src="../assets/client-esf.svg" class="esf" alt="Client logo of Electrical Safety First" width="120" />
-      <img src="../assets/client-lv.svg" class="lv" alt="Client logo of LV" width="90" />
-      <img src="../assets/client-sage.svg" class="sage" alt="Client logo of Sage" width="75" />
+      <img src="../assets/client-astrazeneca.svg" class="astrazeneca" alt="Client logo of AstraZeneca" width="150" height="37" />
+      <img src="../assets/client-mastercard.svg" class="mastercard" alt="Client logo of Mastercard" width="180" height="31" />
+      <img src="../assets/client-mclaren.svg" class="mclaren" alt="Client logo of McLaren" width="160" height="36" />
+      <img src="../assets/client-meteogroup.svg" class="meteogroup" alt="Client logo of MeteoGroup" width="170" height="26" />
+      <img src="../assets/client-vodafone.svg" class="vodafone" alt="Client logo of Vodafone" width="140" height="35" />
+      <img src="../assets/client-pearson.svg" class="pearson" alt="Client logo of Pearson" width="140" height="42" />
+      <img src="../assets/client-thomson-reuters.svg" class="thomson-reuters" alt="Client logo of Thomson Reuters" width="200" height="28" />
+      <img src="../assets/client-adidas.svg" class="adidas" alt="Client logo of Adidas" width="75" height="51" />
+      <img src="../assets/client-lucy-and-yak.svg" class="lucy-and-yak" alt="Client logo of Lucy & Yak" width="60" height="60" />
+      <img src="../assets/client-expresstest.svg" class="expresstest" alt="Client logo of ExpressTest" width="140" height="44" />
+      <img src="../assets/client-esf.svg" class="esf" alt="Client logo of Electrical Safety First" width="120" height="51" />
+      <img src="../assets/client-lv.svg" class="lv" alt="Client logo of LV" width="90" height="26" />
+      <img src="../assets/client-sage.svg" class="sage" alt="Client logo of Sage" width="75" height="29" />
     </div>
   </section>
 </template>
 
 <style scoped>
   section {
-    margin-bottom: 15rem;
+    margin-bottom: 17rem;
   }
   
   h2 {
@@ -43,6 +43,10 @@
     row-gap: 3rem;
   }
 
+  img {
+    height: auto;
+  }
+
   @media screen and (min-width: 800px) {
     h2 {
       grid-column: 3 / 9;
@@ -61,7 +65,7 @@
 
   @media screen and (min-width: 1200px) {
     section {
-      margin-bottom: 25rem;
+      margin-bottom: 30rem;
     }
 
     div {
