@@ -34,7 +34,7 @@
     <section class="inner grid work">
         <h2>Work</h2>
         <p>I am a multi-skilled designer with a focus on interface design, a passion for typography and design systems, an eye for detail, a strong technical leaning and an affinity for user-centred design.</p>
-        <p>Here's a little sample of my work, while I get on to writing case studies!</p>
+        <p>Here's a little sample of my work across UX and UI, visual and motion design.</p>
         <div class="shots-container">
             <div class="shots">
                 <video autoplay loop muted playsinline alt="SeeSaw style tiles" width="400" height="300" loading="lazy">
