@@ -42,21 +42,21 @@
                 </video>
                 <img srcset="../assets/work-seesaw-home-800.jpg 2x, ../assets/work-seesaw-home-400.jpg 1x" src="../assets/work-seesaw-home-800.jpg" alt="SeeSaw marketing home page" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-seesaw-mobile-800.jpg 2x, ../assets/work-seesaw-mobile-400.jpg 1x" src="../assets/work-seesaw-mobile-800.jpg" alt="SeeSaw dashboard mobile" width="400" height="300" loading="lazy" />
-                <img srcset="../assets/work-seesaw-calendar-800.jpg 2x, ../assets/work-seesaw-calendar-400.jpg 1x" src="../assets/work-seesaw-calendar-800.jpg" alt="SeeSaw dashboard calendar" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-seesaw-features-800.jpg 2x, ../assets/work-seesaw-features-400.jpg 1x" src="../assets/work-seesaw-features-800.jpg" alt="SeeSaw features component" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-absurd-home-800.jpg 2x, ../assets/work-absurd-home-400.jpg 1x" src="../assets/work-absurd-home-800.jpg" alt="Absurd home page" width="400" height="300" loading="lazy" />
                 <video autoplay loop muted playsinline alt="Absurd clients tiles" width="400" height="300" loading="lazy">
                     <source src="../assets/work-absurd-clients.mp4" type="video/mp4">
                 </video>
+                <video autoplay loop muted playsinline alt="Absurd showreel" width="400" height="300" loading="lazy">
+                    <source src="../assets/work-absurd-showreel.mp4" type="video/mp4">
+                </video>
                 <video autoplay loop muted playsinline alt="CitySuites motion test" width="400" height="300" loading="lazy">
                     <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
                 </video>
-                <video autoplay loop muted playsinline alt="Prosper EX style tiles" width="400" height="300" loading="lazy">
-                    <source src="../assets/work-prosper-ex-style-tiles.mp4" type="video/mp4">
-                </video>
+                <img srcset="../assets/work-prosper-ex-brand-800.jpg 2x, ../assets/work-prosper-ex-brand-400.jpg 1x" src="../assets/work-prosper-ex-brand-800.jpg" alt="Prosper EX brand definition" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" width="400" height="300" loading="lazy" />
-                <img srcset="../assets/work-esf-website-800.jpg 2x, ../assets/work-esf-website-400.jpg 1x" src="../assets/work-esf-website-800.jpg" alt="Electrical Safety First website" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-ly-wireframes-1600.jpg 2x, ../assets/work-ly-wireframes-800.jpg 1x" src="../assets/work-ly-wireframes-1600.jpg" alt="Lucy & Yak UX" class="wide" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-ly-design-system-800.jpg 2x, ../assets/work-ly-design-system-400.jpg 1x" src="../assets/work-ly-design-system-800.jpg" alt="Lucy & Yak design system" width="800" height="300" loading="lazy" />
             </div>
