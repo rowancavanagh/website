@@ -2,7 +2,7 @@
   <header class="inner grid hero">
     <a href="/"><img alt="My monogram" class="logo" src="../assets/logo.svg" width="25" height="22.5" /></a>
     <div>
-      <h1>Hi I'm Rowan, a digital product designer</h1>
+      <h1>Hi I'm Rowan, a product designer</h1>
       <p>🚧&nbsp; Bear with me while I fill out my barebones portfolio site! &nbsp;🚧</p>
     </div>
     <figure>

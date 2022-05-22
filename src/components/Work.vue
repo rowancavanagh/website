@@ -53,12 +53,19 @@
                 <video autoplay loop muted playsinline alt="CitySuites motion test" width="400" height="300" loading="lazy">
                     <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
                 </video>
+                <video autoplay loop muted playsinline alt="Ladbrokes onboarding journey proposal from showreel" width="400" height="300" loading="lazy">
+                    <source src="../assets/work-ladbrokes-onboarding.mp4" type="video/mp4">
+                </video>
                 <img srcset="../assets/work-prosper-ex-brand-800.jpg 2x, ../assets/work-prosper-ex-brand-400.jpg 1x" src="../assets/work-prosper-ex-brand-800.jpg" alt="Prosper EX brand definition" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-prosper-ex-dashboard-800.jpg 2x, ../assets/work-prosper-ex-dashboard-400.jpg 1x" src="../assets/work-prosper-ex-dashboard-800.jpg" alt="Prosper EX managers dashboard" width="400" height="300" loading="lazy" />
-                <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-ly-wireframes-1600.jpg 2x, ../assets/work-ly-wireframes-800.jpg 1x" src="../assets/work-ly-wireframes-1600.jpg" alt="Lucy & Yak UX" class="wide" width="400" height="300" loading="lazy" />
-                <img srcset="../assets/work-ly-design-system-800.jpg 2x, ../assets/work-ly-design-system-400.jpg 1x" src="../assets/work-ly-design-system-800.jpg" alt="Lucy & Yak design system" width="800" height="300" loading="lazy" />
+                <img srcset="../assets/work-esf-personas-800.jpg 2x, ../assets/work-esf-personas-400.jpg 1x" src="../assets/work-esf-personas-800.jpg" alt="Electrical Safety First personas" width="400" height="300" loading="lazy" />
+                <video autoplay loop muted playsinline alt="Adidas creator app proposal" width="400" height="300" loading="lazy">
+                    <source src="../assets/work-adidas-app.mp4" type="video/mp4">
+                </video>
+                <img srcset="../assets/work-astrazeneca-persona-800.jpg 2x, ../assets/work-astrazeneca-persona-400.jpg 1x" src="../assets/work-astrazeneca-persona-800.jpg" alt="AstraZeneca oncology personas" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-astrazeneca-current-800.jpg 2x, ../assets/work-astrazeneca-current-400.jpg 1x" src="../assets/work-astrazeneca-current-800.jpg" alt="AstraZeneca current service journey" width="400" height="300" loading="lazy" />
             </div>
         </div>
     </section>
