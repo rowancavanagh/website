@@ -64,8 +64,9 @@
                 <video autoplay loop muted playsinline alt="Adidas creator app proposal" width="400" height="300" loading="lazy">
                     <source src="../assets/work-adidas-app.mp4" type="video/mp4">
                 </video>
+                <img srcset="../assets/work-astrazeneca-current-800.jpg 2x, ../assets/work-astrazeneca-current-400.jpg 1x" src="../assets/work-astrazeneca-current-800.jpg" alt="AstraZeneca current service blueprint" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-astrazeneca-persona-800.jpg 2x, ../assets/work-astrazeneca-persona-400.jpg 1x" src="../assets/work-astrazeneca-persona-800.jpg" alt="AstraZeneca oncology personas" width="400" height="300" loading="lazy" />
-                <img srcset="../assets/work-astrazeneca-current-800.jpg 2x, ../assets/work-astrazeneca-current-400.jpg 1x" src="../assets/work-astrazeneca-current-800.jpg" alt="AstraZeneca current service journey" width="400" height="300" loading="lazy" />
+                <img srcset="../assets/work-astrazeneca-journey-800.jpg 2x, ../assets/work-astrazeneca-journey-400.jpg 1x" src="../assets/work-astrazeneca-journey-800.jpg" alt="AstraZeneca inhaler adherence user journeys" width="400" height="300" loading="lazy" />
             </div>
         </div>
     </section>
