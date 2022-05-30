@@ -7,11 +7,11 @@
     </div>
     <figure>
       <img srcset="../assets/hero-1-800.webp 800w, ../assets/hero-1-800.jpg 800w, ../assets/hero-1-400.jpg 400w" sizes="(max-width: 1000px) 400px, 800px" src="../assets/hero-1-800.jpg" class="hero-img-1" alt="Me gesturing strangely" width="400" height="267" />
-      <img srcset="../assets/hero-2-600.webp 600w, ../assets/hero-2-600.jpg 600w, ../assets/hero-2-300.jpg 300w" sizes="(max-width: 1000px) 300px, 600px" src="../assets/hero-2-600.jpg" class="hero-img-2" alt="Me pointing" width="300" height="200" />
-      <video autoplay loop muted playsinline class="hero-img-3" alt="My work in a very short video" width="300" height="225">
+      <video autoplay loop muted playsinline class="hero-img-2" alt="My work in a very short video" width="300" height="225">
         <source src="../assets/hero-3.webm" type="video/webm">
         <source src="../assets/hero-3.mp4" type="video/mp4">
       </video>
+      <img srcset="../assets/hero-2-600.webp 600w, ../assets/hero-2-600.jpg 600w, ../assets/hero-2-300.jpg 300w" sizes="(max-width: 1000px) 300px, 600px" src="../assets/hero-2-600.jpg" class="hero-img-3" alt="Me pointing" width="300" height="200" />
     </figure>
   </header>
 </template>

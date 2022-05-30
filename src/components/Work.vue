@@ -50,11 +50,11 @@
                 <video autoplay loop muted playsinline alt="Absurd showreel" width="400" height="300" loading="lazy">
                     <source src="../assets/work-absurd-showreel.mp4" type="video/mp4">
                 </video>
-                <video autoplay loop muted playsinline alt="CitySuites motion test" width="400" height="300" loading="lazy">
-                    <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
-                </video>
                 <video autoplay loop muted playsinline alt="Ladbrokes onboarding journey proposal from showreel" width="400" height="300" loading="lazy">
                     <source src="../assets/work-ladbrokes-onboarding.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted playsinline alt="CitySuites motion test" width="400" height="300" loading="lazy">
+                    <source src="../assets/work-citysuites-motion-test.mp4" type="video/mp4">
                 </video>
                 <img srcset="../assets/work-prosper-ex-brand-800.jpg 2x, ../assets/work-prosper-ex-brand-400.jpg 1x" src="../assets/work-prosper-ex-brand-800.jpg" alt="Prosper EX brand definition" width="400" height="300" loading="lazy" />
                 <img srcset="../assets/work-prosper-ex-employees-800.jpg 2x, ../assets/work-prosper-ex-employees-400.jpg 1x" src="../assets/work-prosper-ex-employees-800.jpg" alt="Prosper EX employee dashboard and home page detail" width="400" height="300" loading="lazy" />
